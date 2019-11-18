@@ -1,0 +1,4 @@
+委托类，代理类共用接口：Movable：move()
+
+委托类：Tank
+代理类：TankRuntimeProxy，代理Tank，在move方法前后统计方法运行的时间；也可以创建其它的代理类，方法类似。
